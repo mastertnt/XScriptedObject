@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>XScriptedObject</id>
     <version>1.0.0</version>
@@ -16,8 +16,9 @@
       <dependency id="NUnit" version="3.10.1" />
 	  <dependency id="Sprache" version="2.1.2" />
     </dependencies>
-	<files>
-     <file src="..\Build\Release_x86\XScriptedObject.dll" target="lib\net45" />
-  </files>
+
   </metadata>
+  	<files>
+	<file src="..\Build\Release_x86\XScriptedObject.dll" target="lib\net45" />
+  </files>
 </package>
