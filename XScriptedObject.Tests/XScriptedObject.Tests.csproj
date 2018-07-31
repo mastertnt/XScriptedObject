@@ -18,11 +18,13 @@
   </PropertyGroup>
   <Import Project="..\Targets\XScriptedObject.Output.Targets" />
   <ItemGroup>
-    <Reference Include="nunit.framework">
+    <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\NuGet\InstalledPackages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sprache">
+    <Reference Include="Sprache, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\NuGet\InstalledPackages\Sprache.2.1.2\lib\net45\Sprache.dll</HintPath>
       <Private>True</Private>
     </Reference>
